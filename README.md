@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071F17,50:0B6E4F,100:39FF14&height=245&section=header&text=DANIEL%20FERRAZ%20NETO&fontSize=42&fontColor=FFFFFF&animation=twinkling&fontAlignY=30&desc=FULLSTACK%20DEVELOPER&descAlignY=50&descSize=19&descColor=CFFFE0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071F17,50:0B6E4F,100:39FF14&height=245&section=header&text=DANIEL%20SILVA%20FERRAZ%20NETO&fontSize=42&fontColor=FFFFFF&animation=twinkling&fontAlignY=30&desc=FULLSTACK%20DEVELOPER&descAlignY=50&descSize=19&descColor=CFFFE0" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=39FF14&center=true&vCenter=true&width=820&lines=Fullstack+Developer+%40+Oper;TypeScript+%2B+Next.js+%2B+NestJS+%2B+Prisma;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%40+UFLA;Sempre+aprendendo+algo+novo+%F0%9F%9A%80" />
 
