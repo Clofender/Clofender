@@ -1,14 +1,14 @@
 # ═══════════════════════════════════════════════════════════════════════════
-#  Gera TODAS as animações do perfil de uma vez:
+#  Gera as animações do perfil:
 #
-#    JOB 1 → 🐍 cobrinha  +  🕹️ pacman      → branch "output"
-#    JOB 2 → 📊 gráfico 3D de contribuições  → branch "main"
+#    JOB 1 → 🐍 cobrinha                      → branch "output"
+#    JOB 2 → 📊 gráfico 3D de contribuições   → branch "main"
 #
 #  ── POR QUE DOIS JOBS E NÃO DOIS ARQUIVOS? ────────────────────────────────
-#  Os dois primeiros publicam na branch "output"; o 3D publica na "main".
-#  Rodando em jobs separados (cada um com sua própria máquina e seu próprio
-#  checkout), um não mexe no arquivo do outro. Se estivessem no mesmo job,
-#  o "git add -A" do 3D acabaria levando junto os arquivos da cobrinha.
+#  A cobrinha publica na branch "output"; o 3D publica na "main". Rodando em
+#  jobs separados (cada um com sua própria máquina e seu próprio checkout),
+#  um não mexe no arquivo do outro. Se estivessem no mesmo job, o "git add -A"
+#  do 3D acabaria levando junto os arquivos da cobrinha.
 #
 #  ── POR QUE ISSO NUNCA QUEBRA ─────────────────────────────────────────────
 #  Os SVGs são gravados DENTRO do seu repositório. O README aponta para
@@ -23,7 +23,7 @@
 #  4. Espere ~2 minutos e recarregue a página do perfil
 # ═══════════════════════════════════════════════════════════════════════════
 
-name: 🐍🕹️📊 Gerar animações do perfil
+name: 🐍📊 Gerar animações do perfil
 
 on:
   schedule:
@@ -37,7 +37,7 @@ jobs:
   # ═════════════════════════════════════════════════════════════════════════
   #  JOB 1 — COBRINHA + PACMAN  →  branch "output"
   # ═════════════════════════════════════════════════════════════════════════
-  cobrinha-e-pacman:
+  cobrinha:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -64,13 +64,6 @@ jobs:
           github_user_name: Clofender
           outputs: |
             dist/cobrinha.svg?color_snake=#39FF14&color_dots=#071F17,#0B6E4F,#12A36F,#1FD98A,#39FF14
-
-      # Gera "pacman-contribution-graph.svg" e "-dark.svg" na pasta dist/
-      - name: 🕹️ Gerar o pacman
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: Clofender
-          games: "pacman"
 
       # Publica a pasta dist/ inteira na branch "output"
       - name: 🚀 Publicar na branch output

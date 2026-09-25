@@ -47,7 +47,7 @@ Fora do trabalho, gosto de jogar vôlei 🏐 e uma boa partida de FPS 🎮.
 
 </div>
 
-<table>
+<table align="center">
 <tr>
   <th align="left">Período</th>
   <th align="left">Cargo</th>
@@ -64,11 +64,11 @@ Fora do trabalho, gosto de jogar vôlei 🏐 e uma boa partida de FPS 🎮.
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="26" alt=""/> Formação acadêmica
 
-</div>
-
 - **UFLA** — Ciência da Computação *(2024 → 2028, em andamento)*
 - **CEFET-MG** — Técnico em Redes de Computadores *(2021 → 2023)*
 - Certificação em Linux · White Belt Six Sigma · 45º e 49º Fórum Regional Sudeste (IX)
+
+</div>
 
 <br>
 
@@ -78,7 +78,7 @@ Fora do trabalho, gosto de jogar vôlei 🏐 e uma boa partida de FPS 🎮.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30" alt=""/> Stack
 
-**Tecnologias que uso no dia a dia** — os ícones abaixo _se mexem_ 🙂
+**Tecnologias que uso no dia a dia**
 
 <br>
 
@@ -211,21 +211,7 @@ Fora do trabalho, gosto de jogar vôlei 🏐 e uma boa partida de FPS 🎮.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" alt=""/> Estatísticas do GitHub
 
-**📊 Contribuições do último ano** _(gráfico 3D, animado — 454 animações dentro do SVG)_:
-
-<img src="https://raw.githubusercontent.com/Clofender/Clofender/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Gráfico 3D das contribuições de Clofender"/>
-
-<br>
-
-**🐍 Cobrinha das contribuições:**
-
 <img src="https://raw.githubusercontent.com/Clofender/Clofender/output/cobrinha.svg" width="100%" alt="Cobrinha das contribuições"/>
-
-<br>
-
-**🕹️ Pacman das contribuições:**
-
-<img src="https://raw.githubusercontent.com/Clofender/Clofender/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pacman das contribuições"/>
 
 <br>
 
@@ -236,13 +222,13 @@ Fora do trabalho, gosto de jogar vôlei 🏐 e uma boa partida de FPS 🎮.
 
 <br><br>
 
-**Sequência de contribuições** _(este card tem animação própria de entrada)_:
+**Sequência de contribuições**:
 
 <img src="https://streak-stats.demolab.com?user=Clofender&background=071F17&border=39FF14&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakNum=39FF14&sideNums=00FF9C&currStreakLabel=39FF14&sideLabels=CFFFE0&dates=00FF9C&hide_border=false" />
 
 <br><br>
 
-**Atividade ao longo do ano** _(contribuições, repositórios e tempo de conta)_:
+**Atividade ao longo do ano**:
 
 <a href="https://github.com/Clofender">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Clofender&theme=dark" width="100%" alt="Atividade de Clofender no último ano"/>
@@ -260,7 +246,7 @@ Fora do trabalho, gosto de jogar vôlei 🏐 e uma boa partida de FPS 🎮.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" width="30" alt=""/> Contato
 
-<a href="https://www.linkedin.com/in/danielclofender">
+<a href="https://www.linkedin.com/in/daniel-clofender/">
   <img src="https://img.shields.io/badge/-LinkedIn-0B6E4F?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="mailto:danielsfn1@gmail.com">
