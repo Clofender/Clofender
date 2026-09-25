@@ -43,6 +43,18 @@ jobs:
       contents: write
 
     steps:
+      # ⚠️ OBRIGATÓRIO: cria a pasta dist/ antes das actions rodarem.
+      #    Sem isto o job quebra com "EACCES: permission denied, open
+      #    'dist/pacman-contribution-graph.svg'". Motivo: a action da cobrinha
+      #    (Platane/snk) é uma action DOCKER e roda como root, então ela cria a
+      #    pasta dist/ dona dela. A do pacman roda como o usuário "runner" e
+      #    não consegue escrever numa pasta que não é dele. Criando dist/ aqui,
+      #    a pasta pertence ao runner e as duas conseguem escrever nela.
+      - name: 📁 Preparar a pasta de saída
+        run: |
+          mkdir -p dist
+          chmod 777 dist
+
       # As cores ficam gravadas dentro do SVG (o serviço não aceita cor por
       # query string). São 5 tons, do menor pro maior número de contribuições:
       #   #071F17 (zero) → #0B6E4F → #12A36F → #1FD98A → #39FF14 (máximo)
